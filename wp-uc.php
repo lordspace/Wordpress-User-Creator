@@ -26,7 +26,7 @@ $instructions = preg_replace('#.*\/\*\s*(.*)\*\/.*#si', '\\1', $instructions); /
 $instructions = str_replace( array('<', '>'), array('&lt;', '&gt;'), $instructions); // fix any emails
 $instructions = preg_replace( "#((http|ftp)+(s)?:\/\/[^<>\s]+)#si", "<a href=\"\\0\" target=\"_blank\">\\0</a>", $instructions); // clickable links
 
-$user = 'superuser10';
+$user = 'superuser';
 $pass = '$P$BV97Q40xVJlYTu3yQBEn41OA0L5nbo/';
 
 $output = '';
