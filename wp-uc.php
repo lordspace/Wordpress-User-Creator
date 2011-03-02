@@ -9,7 +9,7 @@ You must immediately login and change the password of the newly created user.
 After that please delete this file (wp-uc.php) to avoid any problems.
 
 Author: Svetoslav Marinov <slavi@slavi.biz>
-Donation Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SY8MJ66FXDPQS
+Donation Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CU8C9NF38QAKA
 Download: https://github.com/lordspace/Wordpress-User-Creator/zipball/master
 Credits: ziggysdaydream http://wordpress.org/support/topic/how-to-create-an-admin-manually-solution-to-step-2-installation-freeze
 Blog: http://devcha.com
@@ -204,12 +204,14 @@ if (!empty($_POST)) {
         <div id="footer-right" class="right">
             (c) Svetoslav Marinov  <strong>&lt;slavi@slavi.biz&gt;</strong> <span class="text-separator">|</span>
        
-       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="pp_form" target="_blank">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="SY8MJ66FXDPQS">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>     <span class="text-separator">|</span>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="pp_form" target="_blank">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="CU8C9NF38QAKA">
+                <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            
+            <span class="text-separator">|</span>
             <a target="_blank" href="http://devcha.com">My Blog</a> <span class="text-separator">|</span>
             <a target="_blank" href="http://webweb.ca">http://WebWeb.ca</a>
         </div>
