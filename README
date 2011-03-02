@@ -1,0 +1,14 @@
+This script creates a new Wordpress account with default data (user: superuser, pass: superuser).
+Install in it in your wordpress installation directory i.e. where the wp-config.php resides.
+Start your browser and access: yoursite/wordpress-install/wp-uc.php
+This is useful when the automated process has failed for some reason to create the accounts.
+You must immediately login and change the password of the newly created user.
+After that please delete this file (wp-uc.php) to avoid any problems.
+
+Author: Svetoslav Marinov <slavi@slavi.biz>
+Donation Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CU8C9NF38QAKA
+Download: https://github.com/lordspace/wpuc/zipball/master
+Credits: ziggysdaydream http://wordpress.org/support/topic/how-to-create-an-admin-manually-solution-to-step-2-installation-freeze
+Blog: http://devcha.com
+Main Site: http://WebWeb.ca
+Version: 1.0, License: LGPL, Disclaimer: Use it at your own risk! Delete the file after usage.
