@@ -10,7 +10,7 @@ After that please delete this file (wp-uc.php) to avoid any problems.
 
 Author: Svetoslav Marinov <slavi@slavi.biz>
 Donation Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SY8MJ66FXDPQS
-Download: https://github.com/lordspace/wpuc/zipball/master
+Download: https://github.com/lordspace/Wordpress-User-Creator/zipball/master
 Credits: ziggysdaydream http://wordpress.org/support/topic/how-to-create-an-admin-manually-solution-to-step-2-installation-freeze
 Blog: http://devcha.com
 Main Site: http://WebWeb.ca
